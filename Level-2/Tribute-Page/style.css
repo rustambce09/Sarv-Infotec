@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1b2735, #3a506b);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 55px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Main */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Hero Image */
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Content Sections */
+.content,
+.qualities,
+.timeline {
+    background: white;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #26384a;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Paragraph */
+.content p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Quality Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #eef2f5;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 5px solid #3a506b;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    color: #26384a;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+/* Timeline */
+.timeline ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline li {
+    background: #f1f4f6;
+    margin: 12px 0;
+    padding: 15px 20px;
+    border-left: 5px solid #3a506b;
+    border-radius: 5px;
+}
+
+/* Quote */
+.quote {
+    background: #26384a;
+    color: white;
+    text-align: center;
+    padding: 45px 25px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.quote blockquote {
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.quote p {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #1b2735;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .hero img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .content,
+    .qualities,
+    .timeline {
+        padding: 25px;
+    }
+
+    .quote blockquote {
+        font-size: 20px;
+    }
+}
