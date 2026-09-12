@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+    align-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border:2px solid black;    
+    justify-content: space-between;
+    background-color: rgb(136, 136, 176);
+    align-items: center;
+    width:auto;
+    border-radius: 1rem;
+    border: none;
+    
+}
+
+#todoInput{
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#addTodoButton{
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    border: radius 0.5em;rem ;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+#todoList{
+    align-items: center;
+    margin:30px 20px;
+    padding: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 0.5rem;
+    margin-left: 30px;
+}
+
+div{
+    
+    justify-content: space-evenly;
+    font-size: 2rem;
+    margin: 20px;
+
+}
+.todo{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+checkbox{
+    font-size: 2rem;
+}
+

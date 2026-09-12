@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Modern Dark Mode</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container nav-content">
+            <div class="logo">MY PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="container">
+            <div class="introduction">
+                <h1>Hi, I'm <span>Rustam</span></h1>
+                <h3>AND I'm <span class="multiple-text"></span></h3>
+                <p>Welcome to my personal portfolio website! <span class="multiple-text"></span>. Take a look at my work and feel free to get in touch!</p> 
+                 <div class="socialmedia">
+                    <a href="https://github.com/rustambce09" target="_blank" ><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rustam-ansari-976a413bb/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com" target="_blank" ><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://youtube.com" target="_blank" ><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>    
+            <div class="image"></div>
+        </div>    
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+        
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="container">
+            <div class="image"></div>
+            <div class="about-text">
+                <p>I am a dedicated and enthusiastic developer with a strong passion for technology and problem-solving. I have experience in various programming languages and frameworks, and I enjoy creating innovative solutions to real-world challenges. My goal is to continuously learn and grow as a developer while contributing to meaningful projects.
+                </p>
+            </div>
+        </div>
+    </section>       
+    <div>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <i class="fa-brands fa-c"></i>
+                    <h3>C Programming language</h3>
+                    <p>Proficient in C programming, with a strong foundation in data structures and algorithms.</p>
+                </div>
+                <div class="project-card">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python Progamming</h3>
+                    <p>Experienced in Python programming, with a focus on automation and data analysis.</p>
+                </div>
+                <div class="project-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>HTML</h3>
+                    <p>Proficient in creating semantic and accessible HTML markup.</p>
+                </div>
+
+                <div class="project-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Skilled in designing responsive and visually appealing layouts with CSS.</p>
+                </div>
+                <div class="project-card">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Experienced in building interactive web applications using JavaScript.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="web-development">
+                <div class="project-card">
+                    <h3>Todo List</h3>
+                    <div class="cards" id="card-img1">
+                    </div>
+                    <p>Todo List <a href="" target="_blank">Click Here</a></p>
+                    
+                </div>
+                <div class="project-card">
+                    <h3>Calculator</h3>
+                    <div class="cards" id="card-img2">
+                    </div>
+                    <p>Calculator <a href="" target="_blank">Click Here</a></p>
+                    
+                </div>
+                <div class="project-card">
+                    <h3>My Portfolio</h3>
+                    <div class="cards" id="card-img3">
+                    </div>
+                    <p>My Portfolio <a href="https://rustambce09.github.io/MyPortfolio/" target="_blank">Click Here</a></p>
+                    
+                </div>
+
+                <div class="project-card">
+                    <h3>Healthy Gym</h3>
+                    <div class="cards" id="card-img4">
+                    </div>
+                    <p>Healthy Gym<a href="https://rustambce09.github.io/Healthygym/" target="_blank" >Click Here</a></p>
+                   
+                </div>
+                <div class="project-card">
+                    <h3>Registration Form </h3>
+                    <div class="cards" id="card-img5">
+                    </div>
+                    <p>Registration Form<a href="https://rustambce09.github.io/Registration-form//" target="_blank">Click Here</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="email@example.com">
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Tell me about your project..."></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">Send
+                    Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 [Rustam]. All rights reserved.</p>
+        <a href="project.html">Back</a>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
